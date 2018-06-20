@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>Dashboard | Klorofil - Free Bootstrap Dashboard Template</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <!-- VENDOR CSS -->
+        <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/vendor/linearicons/style.css">
+        <link rel="stylesheet" href="assets/vendor/chartist/css/chartist-custom.css">
+        <!-- MAIN CSS -->
+        <link rel="stylesheet" href="assets/css/main.css">
+        <!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
+        <link rel="stylesheet" href="assets/css/demo.css">
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+        <!-- ICONS -->
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+        <link rel="stylesheet" href="assets/css/imgStyle.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <script type="text/javascript" src="assets/vendor/jquery/jquery.js"></script>
+        <script type="text/javascript" src="assets/vendor/jquery-slimscroll/jquery.slimscroll.js"></script>
+        <script type="text/javascript" src="assets/scripts/klorofil-common.js"></script>
+
+    </head>
+
+    <body>
+        <!-- WRAPPER -->
+        <div id="wrapper">
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-default navbar-fixed-top" style="height: 15px">
+                <div class="container-fluid">
+                    <div class="navbar-btn" style="padding: 2px">
+                        <button type="button" class="btn-toggle-fullwidth"><i class="lnr lnr-arrow-left-circle"></i></button>
+                    </div>
+
+                    <div id="navbar-menu">
+                    </div>
+                    <script>
+                        $(function () {
+                            $("#navbar-menu").load("header.html");
+                        });
+                    </script>
+                </div>
+            </nav>
+            <!-- END NAVBAR -->
+            <!-- LEFT SIDEBAR -->
+
+            <div id="menuPlace"></div> 
+            <script>
+                $(function () {
+                    $("#menuPlace").load("menu.html");
+                });
+            </script>
+            <!-- END LEFT SIDEBAR -->
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+            </div>
+            <!-- MAIN -->
+            <div class="main">
+                <!-- MAIN CONTENT -->
+                <div class="main-content">
+
+                    <!-- END OVERVIEW -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- RECENT PURCHASES -->
+                            <div class="panel black_text">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Водяне опалення</h3>
+                                    <div class="right">
+                                        <button type="button" class="btn-toggle-collapse"><i class="lnr lnr-chevron-up"></i></button>
+                                        <button type="button" class="btn-remove"><i class="lnr lnr-cross"></i></button>
+                                    </div>
+                                </div>
+                                <div class="panel-body no-padding">
+                                    <table class="table table-striped">
+
+                                        <tbody>
+                                            <tr>
+                                                <td style="text-align:center;"><div class="image"><a href="#"><img width="300" src="images/water/imageWater1.jpg" /></a></div></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Рідинна система опалення має ряд переваг перед повітряною системою опалення. 
+                                                    Серед переваг можна назвати більш високий ККД, легкість розподілу теплової енергії 
+                                                    по будівлі при наявності великої кількості кімнат та ін. приміщень, можливість використання для підігріву 
+                                                    теплих підлог, а також для підігріву води, використовуваної в побуті. Крім того, водяна система опалення 
+                                                    є менш пожежонебезпечною. Пелетні котли на відміну від інших типів котлів можуть забезпечувати 
+                                                    стабільну тепловіддачу протягом тривалого часу, забезпечуючи простоту в управлінні, 
+                                                    подібну котлам на газовому паливі. Наявність сучасної системи управління з можливістю 
+                                                    дистанційної зміни параметрів і контролю процесу горіння робить цей вид котлів 
+                                                    найбільш зручним в експлуатації і обслуговуванні.</td>
+
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="panel-footer">
+                                    <div class="row">
+                                        <div class="col-md-6"><span class="panel-note"></span></div>
+                                        <div class="col-md-6 text-right"><a href="water_production.html" class="btn btn-primary">Детальна інформація</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END RECENT PURCHASES -->
+                        </div>
+                        <div class="col-md-6">
+                            <!-- RECENT PURCHASES -->
+                            <div class="panel black_text">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Повітряне опалення</h3>
+                                    <div class="right">
+                                        <button type="button" class="btn-toggle-collapse"><i class="lnr lnr-chevron-up"></i></button>
+                                        <button type="button" class="btn-remove"><i class="lnr lnr-cross"></i></button>
+                                    </div>
+                                </div>
+                                <div class="panel-body no-padding">
+                                    <table class="table table-striped">
+
+                                        <tbody>
+                                            <tr>
+                                                <td style="text-align:center;"><div class="image"><a href="#"><img width="300" src="images/air/imageAir1.jpg" /></a></div></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Прилади для повітряного опалення приміщень мають ряд особливостей. 
+                                                    Більш низький ККД, ніж у водяних котлів, перекривається такими перевагами, 
+                                                    як істотно нижча ціна і мінімальні витрати на монтаж і запуск системи.
+                                                    Також важливою перевагою цих приладів є відсутність ризику замерзання води в системі опалення, 
+                                                    що дозволяє їх використовувати і при негативних температурах. 
+                                                    До недоліків даного виду опалювальних приладів можна також віднести складність розподілу 
+                                                    теплової енергії по будівлі, що складається з декількох приміщень. Пелети на відміну від інших типів палива 
+                                                    дозволяють автоматизувати подачу палива і забезпечити стабільні умови горіння. 
+                                                    Це в свою чергу забезпечує простоту управління температурним режимом в приміщенні. 
+                                                    З огляду на вищесказане, представлені прилади є оптимальним рішенням для опалення великих виробничих і складських приміщень.
+
+                                                </td>
+
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="panel-footer">
+                                    <div class="row">
+                                        <div class="col-md-6"><span class="panel-note"></span></div>
+                                        <div class="col-md-6 text-right"><a href="air_production.html" class="btn btn-primary">Детальна інформація</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END RECENT PURCHASES -->
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- END MAIN CONTENT -->
+        </div>
+        <!-- END MAIN -->
+        <div class="clearfix"></div>
+    </body>
+
+</html>
